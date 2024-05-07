@@ -2,9 +2,10 @@
   "name": "chai-aur-code-backend",
   "version": "1.0.0",
   "description": "a backend series by hitesh",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "JavaScript",
@@ -13,6 +14,7 @@
   "author": "rahul Pandey",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "prettier": "3.2.5",
+    "nodemon": "3.1.0"
   }
 }
